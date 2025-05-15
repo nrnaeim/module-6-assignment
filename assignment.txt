@@ -1,0 +1,58 @@
+GitHub Desktop Workflow 
+======================================
+
+Creating a New Branch
+------------------------
+Click "Current Branch" > "New Branch" > name it (e.g., css) > click "Create".
+
+
+
+Committing Changes
+---------------------
+After code changes go back to GitHub Desktop,
+write a commit message,
+then click "Commit to [branch name]".
+
+
+
+
+Pushing Changes to GitHub
+----------------------------
+After committing,
+click "Push origin" (top bar)
+
+
+
+Pulling Changes from GitHub
+-----------------------------
+To get the latest changes from others,
+click "Fetch origin",
+then click "Pull origin" if updates are found.
+
+
+
+
+Switching Between Branches
+-----------------------------
+Click "Current Branch",
+select a different branch name
+
+
+
+
+Cloning a Repository
+-----------------------
+Go to "File" > "Clone Repository",
+choose from GitHub or paste a URL,
+select the local path,
+then click "Clone".
+
+
+
+
+Pull Request
+-------------------------
+After pushing your branch,
+click "Create Pull Request" in GitHub Desktop,
+this opens GitHub in your browser,
+where you can review and submit the PR.
