@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 15px 0;
+}
+
+nav {
+  .logo {
+    img {
+      width: 160px;
+      height: 35px;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      i {
+        font-size: 30px;
+      }
+    }
+  }
+
+  ul {
+    li {
+      a {
+        text-decoration: none;
+        font-size: 21px;
+        font-weight: 400;
+        position: relative;
+        color: rgb(255, 106, 0);
+      }
+    }
+  }
+  .register {
+    button {
+      outline: none;
+      border: none;
+      background-color: white;
+      font-size: 21px;
+    }
+    #signUp {
+      padding: 5px 10px;
+      background-color: rgb(255, 106, 0);
+      border-radius: 5px;
+    }
+  }
+}
+
+nav ul li a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -1px;
+  background-color: rgb(255, 106, 0);
+  transition: ease-in;
+  transition-duration: 300ms;
+}
+
+ul li a:hover:before {
+  width: 100%;
+}
+.servicesCard p {
+  text-align: justify;
+}
+.individual {
+  min-width: 40%;
+}
+.member {
+  min-width: 290px;
+}

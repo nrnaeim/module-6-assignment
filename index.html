@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/css/bootstrap.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <nav
+      class="container d-flex flex-column justify-content-lg-between pb-lg-3 flex-lg-row align-items-lg-center"
+    >
+      <div class="logo d-flex flex-row justify-content-between">
+        <a href=""> <img src="./src/images/logo.png" alt="logo" /></a>
+        <div class="icons d-lg-none">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-x d-none"></i>
+        </div>
+      </div>
+      <div
+        class="menuContainer d-none d-flex flex-column d-lg-flex flex-lg-row gap-lg-5 gap-2"
+      >
+        <ul
+          class="list-unstyled d-flex flex-column gap-3 flex-lg-row justify-content-lg-around align-content-lg-center gap-lg-5 h-lg-100 m-lg-auto pt-3 pt-lg-0"
+        >
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+
+        <div class="register">
+          <button>Log In</button>
+          <button id="signUp">Sign Up</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero container d-lg-flex flex-row mt-5">
+      <div
+        class="content w-100 w-lg-50 d-lg-flex flex-lg-column gap-3 justify-content-lg-center"
+      >
+        <h2 class="display-4 fw-bold">
+          We boost growth for your statup business
+        </h2>
+        <p class="fs-lg-2">
+          Our goal is top at the heart of creativity services industry as a
+          digital creator. In has a after comment
+        </p>
+        <div class="heroButtons">
+          <button class="btn px-4" style="background-color: rgb(255, 106, 0)">
+            Get start
+          </button>
+          <button class="btn">
+            <img
+              src="./src/images/Learn More icon.png"
+              alt=""
+              style="width: 22px"
+            />
+            Learn More
+          </button>
+        </div>
+      </div>
+      <div class="heroImage w-100 w-lg-50">
+        <img src="./src/images/heroimage.png" alt="" style="width: 90%" />
+      </div>
+    </div>
+
+    <div
+      class="container d-flex justify-content-center flex-column align-content-center gap-3 m-auto py-2"
+    >
+      <div class="servicesHeading">
+        <h1 class="text-center my-5">Our Services</h1>
+      </div>
+      <div
+        class="serviceCards container d-flex flex-column gap-3 flex-lg-row justify-content-center gap-2"
+      >
+        <div
+          class="servicesCard col d-flex flex-column gap-3 justify-content-center p-4 m-auto align-items-center shadow-lg rounded"
+        >
+          <i
+            class="fa-brands fa-facebook-messenger"
+            style="font-size: 50px"
+          ></i>
+          <h2>Lorem ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            laborum ipsam earum tempora, aspernatur, vel dolore quidem sit eius
+            rerum repudiandae officia molestiae sint voluptatum quisquam aliquam
+            magni. Ipsam, rerum!
+          </p>
+          <button class="btn" style="background-color: rgb(255, 106, 0)">
+            Learn More
+          </button>
+        </div>
+        <div
+          class="servicesCard col d-flex flex-column gap-3 justify-content-center p-4 m-auto align-items-center shadow-lg rounded"
+        >
+          <i class="fa-solid fa-video" style="font-size: 50px"></i>
+
+          <h2>Lorem ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            laborum ipsam earum tempora, aspernatur, vel dolore quidem sit eius
+            rerum repudiandae officia molestiae sint voluptatum quisquam aliquam
+            magni. Ipsam, rerum!
+          </p>
+          <button class="btn" style="background-color: rgb(255, 106, 0)">
+            Learn More
+          </button>
+        </div>
+        <div
+          class="servicesCard col d-flex flex-column gap-3 justify-content-center p-4 m-auto align-items-center shadow-lg rounded"
+        >
+          <i
+            class="fa-brands fa-facebook-messenger"
+            style="font-size: 50px"
+          ></i>
+          <h2>Lorem ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            laborum ipsam earum tempora, aspernatur, vel dolore quidem sit eius
+            rerum repudiandae officia molestiae sint voluptatum quisquam aliquam
+            magni. Ipsam, rerum!
+          </p>
+          <button class="btn" style="background-color: rgb(255, 106, 0)">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="banner container d-flex flex-column justify-content-center align-items-center gap-3 flex-lg-row mt-5"
+    >
+      <div class="bannerHeading w-100 m-2 p-4">
+        <h2>Lorem ipsum dolor</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quas,
+          libero autem incidunt voluptates exercitationem architecto eaque sint
+          totam dicta ipsum illum optio ducimus dolorem aut minima velit
+          consectetur aliquid.
+        </p>
+        <button class="btn btn-light">Explote</button>
+      </div>
+      <div class="bannerImage w-100">
+        <img
+          src="./src/images/banner.png"
+          alt=""
+          style="width: 98%"
+          class="rounded-2"
+        />
+      </div>
+    </div>
+    <div class="testimonial container mt-5">
+      <h1 class="text-center my-5">What clients says about us</h1>
+      <div
+        class="reviewContainer d-flex flex-column justify-content-center align-content-center gap-5 m-auto d-lg-flex"
+      >
+        <div class="row gap-5 justify-content-center">
+          <div
+            class="individual col-lg-5 d-flex flex-row gap-4 p-3 shadow-lg rounded"
+          >
+            <div class="image">
+              <img
+                src="./src/images/Portrait_Placeholder.png"
+                alt=""
+                style="width: 80px"
+                class="rounded-1"
+              />
+            </div>
+            <div class="review">
+              <p class="mb-4" style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                blanditiis voluptate ipsa alias mollitia iste doloribus.
+                Adipisci accusantium ipsam autem nobis. Ab enim libero delectus
+                at amet, esse corrupti odio!
+              </p>
+              <h3 class="text-light-emphasis">Lorem ipsum dolor</h3>
+            </div>
+          </div>
+          <div
+            class="individual col-lg-5 d-flex flex-row gap-4 p-3 shadow-lg rounded"
+          >
+            <div class="image">
+              <img
+                src="./src/images/Portrait_Placeholder.png"
+                alt=""
+                style="width: 80px"
+                class="rounded-1"
+              />
+            </div>
+            <div class="review">
+              <p class="mb-4" style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                blanditiis voluptate ipsa alias mollitia iste doloribus.
+                Adipisci accusantium ipsam autem nobis. Ab enim libero delectus
+                at amet, esse corrupti odio!
+              </p>
+              <h3 class="text-light-emphasis">Lorem ipsum dolor</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row gap-5 justify-content-center">
+          <div
+            class="individual col-lg-5 d-flex flex-row gap-4 p-3 shadow-lg rounded"
+          >
+            <div class="image">
+              <img
+                src="./src/images/Portrait_Placeholder.png"
+                alt=""
+                style="width: 80px"
+                class="rounded-1"
+              />
+            </div>
+            <div class="review">
+              <p class="mb-4" style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                blanditiis voluptate ipsa alias mollitia iste doloribus.
+                Adipisci accusantium ipsam autem nobis. Ab enim libero delectus
+                at amet, esse corrupti odio!
+              </p>
+              <h3 class="text-light-emphasis">Lorem ipsum dolor</h3>
+            </div>
+          </div>
+          <div
+            class="individual col-lg-5 d-flex flex-row gap-4 p-3 shadow-lg rounded"
+          >
+            <div class="image">
+              <img
+                src="./src/images/Portrait_Placeholder.png"
+                alt=""
+                style="width: 80px"
+                class="rounded-1"
+              />
+            </div>
+            <div class="review">
+              <p class="mb-4" style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                blanditiis voluptate ipsa alias mollitia iste doloribus.
+                Adipisci accusantium ipsam autem nobis. Ab enim libero delectus
+                at amet, esse corrupti odio!
+              </p>
+              <h3 class="text-light-emphasis">Lorem ipsum dolor</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="teamContainer container my-5">
+      <h1 class="text-center my-5">Meet our team</h1>
+      <div
+        class="teamMembers d-flex flex-column gap-5 flex-lg-row justify-content-center align-items-center"
+      >
+        <div
+          class="member col-12 col-lg-3 d-flex flex-column gap-3 justify-content-center align-items-center border border-1 rounded"
+        >
+          <div class="memberImage mt-4">
+            <img
+              src="./src/images/Portrait_Placeholder.png"
+              alt=""
+              class="rounded-circle"
+              style="width: 130px"
+            />
+          </div>
+          <h3>Lorem ipsum dolor</h3>
+          <h4 style="color: rgb(196, 196, 196)">Lorem</h4>
+          <div class="container-fluid">
+            <div class="row">
+              <div
+                class="col-4 border border-1 border-start-0 border-bottom-0 border-end-0"
+                style="height: 70px"
+              ></div>
+              <div
+                class="col-4 border border-1 border-bottom-0"
+                style="height: 70px"
+              ></div>
+              <div
+                class="col-4 border border-1 border-start-0 border-bottom-0 border-end-0"
+                style="height: 70px"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="member col-12 col-lg-3 d-flex flex-column gap-3 justify-content-center align-items-center border border-1 rounded"
+        >
+          <div class="memberImage mt-4">
+            <img
+              src="./src/images/Portrait_Placeholder.png"
+              alt=""
+              class="rounded-circle"
+              style="width: 130px"
+            />
+          </div>
+          <h3>Lorem ipsum dolor</h3>
+          <h4 style="color: rgb(196, 196, 196)">Lorem</h4>
+          <div class="container-fluid">
+            <div class="row">
+              <div
+                class="col-4 border border-1 border-start-0 border-bottom-0 border-end-0"
+                style="height: 70px"
+              ></div>
+              <div
+                class="col-4 border border-1 border-bottom-0"
+                style="height: 70px"
+              ></div>
+              <div
+                class="col-4 border border-1 border-start-0 border-bottom-0 border-end-0"
+                style="height: 70px"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="member col-12 col-lg-3 d-flex flex-column gap-3 justify-content-center align-items-center border border-1 rounded"
+        >
+          <div class="memberImage mt-4">
+            <img
+              src="./src/images/Portrait_Placeholder.png"
+              alt=""
+              class="rounded-circle"
+              style="width: 130px"
+            />
+          </div>
+          <h3>Lorem ipsum dolor</h3>
+          <h4 style="color: rgb(196, 196, 196)">Lorem</h4>
+          <div class="container-fluid">
+            <div class="row">
+              <div
+                class="col-4 border border-1 border-start-0 border-bottom-0 border-end-0"
+                style="height: 70px"
+              ></div>
+              <div
+                class="col-4 border border-1 border-bottom-0"
+                style="height: 70px"
+              ></div>
+              <div
+                class="col-4 border border-1 border-start-0 border-bottom-0 border-end-0"
+                style="height: 70px"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="newsLatter container d-flex flex-column gap-4">
+      <h2 class="m-4" style="text-align: center">Subscribe Our Newsletter</h2>
+      <div class="newsLatterContainer row">
+        <div
+          class="newslatterImage col-12 col-lg-6 d-flex justify-content-center align-items-center"
+        >
+          <img src="./src/images/mailbox.png" alt="" style="width: 50%" />
+        </div>
+        <div
+          class="newslatterContent col-12 col-lg-6 d-flex flex-column justify-content-center gap-3"
+        >
+          <p style="text-align: justify">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. In amet
+            repudiandae nemo quisquam recusandae ab velit eveniet, sapiente
+            voluptatem laborum veniam, repellat deleniti quibusdam alias id,
+            optio dolorum incidunt mollitia.
+          </p>
+          <div class="input-group flex-nowrap">
+            <input
+              type="text"
+              class="form-control rounded-pill p-1 ps-4"
+              placeholder="Please enter your email"
+              style="width: 100%"
+            />
+          </div>
+          <div class="">
+            <button
+              class="btn w-100"
+              style="background-color: rgb(255, 106, 0)"
+            >
+              Subscribe Our Newsletter
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer container my-5 d-flex flex-column justify-content-center gap-3 flex-lg-row justify-content-lg-between m-auto"
+    >
+      <a href=""
+        ><img src="./src/images/logo.png" alt="" style="width: 140px"
+      /></a>
+      <p class="d-flex align-items-center m-auto">
+        &copy; 2020 Epixelab. All rights reserved.
+      </p>
+      <ul class="list-unstyled d-flex flex-row gap-5 align-items-center m-auto">
+        <li><a class="text-decoration-none" href="#">Portfolio</a></li>
+        <li><a class="text-decoration-none" href="#">How it Works</a></li>
+        <li><a class="text-decoration-none" href="#">Pricing</a></li>
+        <li><a class="text-decoration-none" href="#">About</a></li>
+        <li><a class="text-decoration-none" href="#">Login</a></li>
+      </ul>
+    </div>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
